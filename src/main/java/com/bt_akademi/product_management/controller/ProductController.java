@@ -22,7 +22,7 @@ public class ProductController
     @DeleteMapping("delete/{productID}")
     public ResponseEntity delete(@PathVariable Integer productID)
     {
-        productService.delete(productID);
+        productService.deleteById(productID);
 
         return new ResponseEntity<>(HttpStatus.OK);
     }
