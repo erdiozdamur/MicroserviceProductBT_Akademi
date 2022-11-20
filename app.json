@@ -1,0 +1,9 @@
+{
+  "name": "bt-akademi-haluk-product",
+  "buildpacks":
+          [
+            {
+              "url": "heroku/gradle"
+            }
+          ]
+}
